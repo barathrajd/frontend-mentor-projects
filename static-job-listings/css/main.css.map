@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../sass/main.scss",
+		"../sass/common/_common.scss",
+		"../sass/components/_card.scss",
+		"../sass/components/_button.scss",
+		"../sass/animation/_animation.scss"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,CAAC;AACD,CAAC,AAAA,OAAO;AACR,CAAC,AAAA,QAAQ,CAAC;EACR,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU,GACvB;;ACND,AAAA,KAAK,CAAC;EACJ,KAAK,EAAE,KAAK,GAKb;EAHE,AAAD,WAAO,CAAC;IACN,SAAS,EAAE,IAAI,GAChB;;ACLH,AAAA,IAAI,CAAC;EACH,SAAS,EAAE,IAAI,GAKhB;EAHE,AAAD,UAAO,CAAC;IACN,OAAO,EAAE,IAAI,GACd"
+}
