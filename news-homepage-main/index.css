@@ -254,13 +254,20 @@ footer {
   display: none;
 }
 
-label,
-input,
+input {
+  display: none;
+}
+
 .icon-close,
 .icon-open {
   display: none;
 }
 @media screen and (max-width: 1024px) {
+  .hero > picture,
+  .hero > picture > source,
+  .hero > picture > img {
+    height: unset;
+  }
   .container {
     margin: 0 8rem;
   }
