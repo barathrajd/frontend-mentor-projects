@@ -110,6 +110,14 @@ ul {
   display: flex;
   gap: 4rem;
 }
+li {
+  cursor: pointer;
+  transition: color 300ms ease-in-out;
+}
+
+li:hover {
+  color: var(--soft-red);
+}
 
 label {
   /* background: red; */
@@ -277,6 +285,10 @@ input {
   }
 }
 
+.backdrop {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .container {
     margin: 1rem;
@@ -358,6 +370,15 @@ input {
     flex-direction: column;
     justify-content: center;
     background: var(--off-white);
+  }
+
+  #menu:checked ~ .backdrop {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.2);
   }
 
   .hero-text-big {
