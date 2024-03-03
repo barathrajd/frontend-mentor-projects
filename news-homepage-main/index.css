@@ -270,6 +270,11 @@ input {
 .icon-open {
   display: none;
 }
+
+.menu-container {
+  display: none;
+}
+
 @media screen and (max-width: 1024px) {
   .hero > picture,
   .hero > picture > source,
@@ -370,6 +375,7 @@ input {
     flex-direction: column;
     justify-content: center;
     background: var(--off-white);
+    font-size: 3rem;
   }
 
   #menu:checked ~ .backdrop {

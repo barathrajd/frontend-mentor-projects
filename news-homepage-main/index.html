@@ -23,20 +23,27 @@
   <body class="container">
     <nav>
       <img src="./assets/images/logo.svg" alt="new-letter-logo" class="logo" />
-      <label for="menu"> </label>
-      <input type="checkbox" id="menu" />
-
-      <img
-        src="./assets/images/icon-menu.svg"
-        alt="icon-menu"
-        class="icon-open"
-      />
-      <img
-        src="./assets/images/icon-menu-close.svg"
-        alt="icon-menu-close"
-        class="icon-close"
-      />
-      <div class="backdrop"></div>
+      <div class="menu-container">
+        <label for="menu"> </label>
+        <input type="checkbox" id="menu" />
+        <img
+          src="./assets/images/icon-menu.svg"
+          alt="icon-menu"
+          class="icon-open"
+        />
+        <img
+          src="./assets/images/icon-menu-close.svg"
+          alt="icon-menu-close"
+          class="icon-close"
+        />
+        <ul>
+          <li>Home</li>
+          <li>New</li>
+          <li>Popular</li>
+          <li>Trending</li>
+          <li>Categories</li>
+        </ul>
+      </div>
       <ul>
         <li>Home</li>
         <li>New</li>
@@ -45,6 +52,7 @@
         <li>Categories</li>
       </ul>
     </nav>
+    <div class="backdrop"></div>
     <main class="main">
       <section class="hero">
         <picture>
